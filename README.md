@@ -4,6 +4,14 @@ Minimal pnpm workspace scaffold with:
 
 - `apps/web`: Svelte 5 + TypeScript + Tailwind CSS v4 app
 - `tools/desktop-export`: placeholder package for desktop export tooling
+- `docs/architecture/editor-core.md`: core architecture for the hybrid visual/code editor
+
+## Tailwind plugin selection
+
+The web app currently enables:
+
+- `@tailwindcss/typography`
+- `@tailwindcss/forms`
 
 ## Scripts
 
