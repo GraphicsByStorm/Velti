@@ -1,0 +1,13 @@
+{
+  "name": "velti",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.6.0",
+  "scripts": {
+    "dev": "pnpm --filter @velti/web dev",
+    "build": "pnpm --filter @velti/web build",
+    "check": "pnpm --filter @velti/web check",
+    "lint": "pnpm --filter @velti/web lint",
+    "format": "pnpm --filter @velti/web format"
+  }
+}
